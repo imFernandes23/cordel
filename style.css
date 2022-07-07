@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montserrat:wght@700&display=swap');
+
+:root{
+    --hand : 'Dancing Script', cursive;
+    --mont : 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:30px 0 10px 0px;
+}
+
+header > h1{
+    font-family: var(--mont);
+    font-variant: small-caps;
+    font-size: 8vw;
+}
+
+header > p{
+    font-family: var(--mont);
+    font-size: 14px;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.links:hover{
+    text-decoration: underline;
+}
+
+
+main{
+    font-family: var(--hand);
+    padding: 10px;
+    font-size: 4vw;
+    line-height: 1.5em;
+}
+
+.image{
+    background-color: rgb(138, 138, 138);
+    color: white;
+    padding: 90px 30px;
+    margin: 0px -10px;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.507);
+}
+
+.image > p {
+    position: relative;
+    width: fit-content;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.274);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    z-index: 10;
+    text-shadow: 1px 1px black;
+    
+    
+}
+.normal{
+    padding: 90px 30px;
+}
+
+#img1{
+    background-image: url('image/background001.jpg');
+    background-position: center right;
+}
+
+#img2{
+    background-image: url('image/background002.jpg');
+    background-position: center right;
+}
+
+
+
+footer {
+     background-color: black;
+     color: white;
+     padding: 10px;
+     text-align: center;
+     font-family: var(--mont);
+     font-size: 13px;
+}
+
